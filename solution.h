@@ -9,6 +9,7 @@ class Solution{
         int lineWidth;
         vector<int> words;
         int cost;
+        int time;
         Solution(int gLineWidth, vector<int> gWords, int gCost);
 
     
