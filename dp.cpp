@@ -6,7 +6,7 @@
 
 using namespace std;
 
-Solution greedy(Problem problem) {
+Solution dp(Problem problem) {
     
 };
 
