@@ -7,10 +7,10 @@ using namespace std;
 class Solution{
     public:
         int lineWidth;
-        vector<int> words;
+        vector<vector<int>> lines;
         int cost;
         Solution(int gLineWidth, vector<int> gWords, int gCost);
-
+        Solution();
     
 };
 
