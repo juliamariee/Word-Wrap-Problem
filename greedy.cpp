@@ -2,12 +2,14 @@
 #define GREEDY_H
 #include <vector>
 #include <cmath>
+#include <chrono>
 #include "solution.h"
 #include "problem.h"
 
 using namespace std;
 
 Solution greedy(Problem problem) {
+    auto start = chrono::high_resolution_clock::now();
     vector<int> words = problem.words;
     int lineWidth = problem.lineWidth;
     Solution solution;
@@ -36,6 +38,9 @@ Solution greedy(Problem problem) {
 
     totalCost = pow(totalCost, 3);
     solution.cost = totalCost;
+    auto end = chrono::high_resolution_clock::now();
+    auto timePased = chrono::duration_cast<chrono::nanoseconds>(end - start);
+    solution.time = timePased.count();
     return solution;
 };
 
