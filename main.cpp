@@ -27,10 +27,10 @@ int main (int argc, char *argv[]) {
 
     //Input Stuff
     if(inFile.is_open() && inFile.good()){
-        getline(infile, line);
-        lineWidth = stoi(line);
-        getline(infile, line);
-        boost::split(words, line, boost::is_any_of(" "));
+        inFile >> std::int >> lineWidth;
+        while(inFile >> std::int >> word){
+            words.push_back(word);
+        }
     }
     inFile.close();
 
