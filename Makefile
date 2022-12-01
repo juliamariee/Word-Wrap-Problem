@@ -11,14 +11,8 @@ gdb: $(TARGET)
 	gdb wordWrap
 	r  input.txt output.txt 2
 
-$(TARGET): main.o Problem.o Solution.o Dp.o Greedy.o
-	$(CC) $(CFLAGS) -o $@ Problem.o Solution.o Dp.o Greedy.o main.o
-
-Greedy.o: greedy.cpp
-	$(CC) $(CFLAGS) -c *.cpp
-
-Dp.o: dp.cpp
-	$(CC) $(CFLAGS) -c *.cpp
+$(TARGET): main.o Problem.o Solution.o 
+	$(CC) $(CFLAGS) -o $@ Problem.o Solution.o  main.o
 
 Solution.o: solution.cpp solution.h
 	$(CC) $(CFLAGS) -c *.cpp
