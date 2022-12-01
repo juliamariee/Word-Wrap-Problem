@@ -15,7 +15,7 @@ int populateLines(vector< vector<int> > &lines, vector<int> words, int printList
     thing = populateLines(lines, words, printList, printList[numOfWords]-1) + 1;
   }
   vector<int> currentLine;
-  for (int i = printList[numOfWords]; i <= numOfWords; i++) {
+  for (int i = printList[numOfWords]-1; i < numOfWords; i++) {
     currentLine.push_back(words[i]);
   }
   lines.push_back(currentLine);
@@ -31,29 +31,29 @@ Solution dp(Problem problem) {
     solution.lineWidth = lineWidth;
 
     vector<int> currLine;
-    int currWidth = 0;
 
-    int spaceTable[words.size()+1][words.size()+1];
-    int costTable[words.size()+1][words.size()+1];
+    int extraSpace[words.size()+1][words.size()+1];
+    int lineCost[words.size()+1][words.size()+1];
     int costTillNow[words.size()+1];
 
-    int printList[words.size()];
+    int printList[words.size()+1];
 
-    for (int i = 0; i <= words.size(); i ++) {
-      spaceTable[i][i] = problem.lineWidth - words[i-1];
+    for (int i = 1; i <= words.size(); i ++) {
+      extraSpace[i][i] = problem.lineWidth - words[i-1];
       for (int j = i+1; j <= words.size(); j++) {
-        spaceTable[i][j] = spaceTable[i][j-1] - words[j-1] - 1;
+        extraSpace[i][j] = extraSpace[i][j-1] - words[j-1] - 1;
       }
     }
 
     for (int i = 1; i <= words.size(); i++) {
       for (int j = i; j <= words.size(); j++) {
-        if (spaceTable[i][j] < 0) {
-          costTable[i][j] = INT32_MAX;
-        } else if (j == words.size() && spaceTable[i][j] >= 0) {
-          costTable[i][j] = 0;
+        if (extraSpace[i][j] < 0) {
+          lineCost[i][j] = INT32_MAX;
+        } else if (j == words.size() && extraSpace[i][j] >= 0) {
+          lineCost[i][j] = 0;
         } else {
-          costTable[i][j] = spaceTable[i][j]*spaceTable[i][j]*spaceTable[i][j];
+          //lineCost[i][j] = extraSpace[i][j]*extraSpace[i][j]*extraSpace[i][j];
+          lineCost[i][j] = extraSpace[i][j]*extraSpace[i][j];
         }
       }
     }
@@ -62,8 +62,8 @@ Solution dp(Problem problem) {
     for (int j = 1; j <= words.size(); j++) {
       costTillNow[j] = INT32_MAX;
       for (int i = 1; i <= j; i ++) {
-        if (costTillNow[i-1] != INT32_MAX && costTable[i][j] != INT32_MAX && (costTillNow[i-1] + costTable[i][j] < costTillNow[j])) {
-          costTillNow[j] = costTillNow[i-1] + costTable[i][j];
+        if (costTillNow[i-1] != INT32_MAX && lineCost[i][j] != INT32_MAX && (costTillNow[i-1] + lineCost[i][j] < costTillNow[j])) {
+          costTillNow[j] = costTillNow[i-1] + lineCost[i][j];
           printList[j] = i;
         }
       }
