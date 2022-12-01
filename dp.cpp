@@ -7,14 +7,14 @@
 
 using namespace std;
 
-int populateLines(vector<vector<int>> &lines, vector<int> words, int printList[], int numOfWords) {
+int populateLines(vector< vector<int> > &lines, vector<int> words, int printList[], int numOfWords) {
   int thing;
   if (printList[numOfWords] == 1) {
     thing = 1;
   } else {
     thing = populateLines(lines, words, printList, printList[numOfWords]-1) + 1;
   }
-  vector<int> currentLine = {};
+  vector<int> currentLine;
   for (int i = printList[numOfWords]; i <= numOfWords; i++) {
     currentLine.push_back(words[i]);
   }
@@ -70,7 +70,7 @@ Solution dp(Problem problem) {
     }
 
 
-    vector<vector<int>> lines;
+    vector< vector<int> > lines;
     populateLines(lines, words, printList, words.size());
     solution.lines = lines;
     return solution;
