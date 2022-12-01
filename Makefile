@@ -1,11 +1,11 @@
 TARGET = wordWrap
 CC = g++
-CFLAGS = -Wall -ggdb
+CFLAGS = -ggdb
 
 all: $(TARGET)
 
 test: $(TARGET)
-	./wordWrap input.txt output.txt 
+	./wordWrap TestCases/smallBadGreedy.txt output.txt 0
 
 gdb: $(TARGET)
 	gdb wordWrap
