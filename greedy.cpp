@@ -1,6 +1,7 @@
 #include <vector>
 #include <cmath>
 #include <chrono>
+#include <iostream>
 #include "problem.h"
 #include "solution.h"
 
@@ -17,12 +18,16 @@ Solution greedy(Problem problem) {
     for(int i = 0; i < words.size(); i++) {
         if((currWidth + words[i]) < lineWidth) {
             currLine.push_back(words[i]);
+            currWidth += words[i];
         } else {
             solution.lines.push_back(currLine);
             currLine.clear();
             currLine.push_back(words[i]);
             currWidth = words[i];
         }
+    }
+    if(currLine.size() > 0) {
+        solution.lines.push_back(currLine);
     }
 
     int totalCost  = 0;
