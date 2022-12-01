@@ -29,20 +29,10 @@ Solution greedy(Problem problem) {
     if(currLine.size() > 0) {
         solution.lines.push_back(currLine);
     }
-
-    int totalCost  = 0;
-    for(int i = 0; i < solution.lines.size(); i++) {
-        int currlineLength = 0;
-        for(int j = 0; j < solution.lines[i].size(); j++) {
-            currlineLength += solution.lines[i][j];
-        }
-        totalCost += (lineWidth - currlineLength);
-    }
-
-    totalCost = pow(totalCost, 3);
-    solution.cost = totalCost;
+;
     auto end = chrono::high_resolution_clock::now();
     auto timePased = chrono::duration_cast<chrono::nanoseconds>(end - start);
     solution.time = timePased.count();
+    solution.calculateCost();
     return solution;
 };
