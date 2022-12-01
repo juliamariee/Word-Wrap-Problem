@@ -1,12 +1,13 @@
 #include <vector>
-#include "greedy.cpp"
 #include "problem.h"
 #include "solution.h"
+#include "greedy.cpp"
 #include "dp.cpp"
 #include <fstream> 
 #include <string>
 #include <iostream>
-#include <boost/algorithm/string.hpp>
+
+
 
 int main (int argc, char *argv[]) { 
     if(argc != 4){
@@ -26,15 +27,16 @@ int main (int argc, char *argv[]) {
     vector<int> words;
 
     //Input Stuff
+    string word_s;
+    string lineWidth_s;
     if(inFile.is_open() && inFile.good()){
-        inFile >> std::int >> lineWidth;
-        while(inFile >> std::int >> word){
-            words.push_back(word);
+        inFile >> lineWidth_s;
+        lineWidth = stoi(lineWidth_s);
+        while(inFile >> word_s){ 
+            words.push_back(stoi(word_s));
         }
     }
     inFile.close();
-
-    Problem problem(lineWidth, words);
 
     return 0;
 }

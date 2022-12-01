@@ -1,10 +1,8 @@
-#ifndef GREEDY_H
-#define GREEDY_H
 #include <vector>
 #include <cmath>
 #include <chrono>
-#include "solution.h"
 #include "problem.h"
+#include "solution.h"
 
 using namespace std;
 
@@ -43,5 +41,3 @@ Solution greedy(Problem problem) {
     solution.time = timePased.count();
     return solution;
 };
-
-#endif

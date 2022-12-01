@@ -8,8 +8,8 @@ class Problem{
     public:
         int lineWidth;
         vector<int> words;
-        Problem(int gLineWidth, vector<int> words);
-
+        Problem(int gLineWidth, vector<int> gWords);
+        Problem();
 };
 
 #endif
