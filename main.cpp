@@ -27,8 +27,8 @@ int main (int argc, char *argv[]) {
     vector<int> words;
 
     //Input Stuff
-    string word_s;
-    string lineWidth_s;
+    string word_s = "";
+    string lineWidth_s = "";
     if(inFile.is_open() && inFile.good()){
         inFile >> lineWidth_s;
         lineWidth = stoi(lineWidth_s);
@@ -37,6 +37,22 @@ int main (int argc, char *argv[]) {
         }
     }
     inFile.close();
+
+    Problem problem(lineWidth, words);
+
+    Solution solution;
+    switch(method){
+        case 0: //Greedy
+            solution = greedy(problem);
+            break;
+        case 1: //DP
+            solution = dp(problem);
+            break;
+        default:
+            cout << "Error" << endl;
+            break;
+    }
+    solution.show();    
 
     return 0;
 }
