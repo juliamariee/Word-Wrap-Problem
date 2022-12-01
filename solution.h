@@ -12,7 +12,8 @@ class Solution{
         int time;
         Solution(int gLineWidth, vector<int> gWords, int gCost);
         Solution();
-        void show();
+        void show(ofstream& out);
+        void calculateCost();
     
 };
 

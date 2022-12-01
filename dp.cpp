@@ -78,6 +78,7 @@ Solution dp(Problem problem) {
   auto timePased = chrono::duration_cast<chrono::nanoseconds>(end - start);
   solution.time = timePased.count();
   solution.lines = lines;
+  solution.calculateCost();
   return solution;
 
 };

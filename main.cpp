@@ -50,7 +50,7 @@ int main (int argc, char *argv[]) {
             cout << "Error" << endl;
             break;
     }
-    solution.show();    
+    solution.show(outFile);    
 
     return 0;
 }
