@@ -154,5 +154,5 @@ rrrrrrrrr sssss
 ttt uuuu vvvvvvvvvv 
 wwwwwww xxxxx yyy 
 zzzzz aaaaaa bbbbbb 
-COST: 16685
-TIME ELAPSED: 0.026456 Seconds
+COST: 16684
+TIME ELAPSED: 0.047791 Seconds

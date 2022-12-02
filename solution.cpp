@@ -23,12 +23,13 @@ void Solution::show(ofstream& out) {
 
 void Solution::calculateCost() {
     int totalCost  = 0;
-    for(int i = 0; i < lines.size(); i++) {
+    for(int i = 0; i < lines.size() - 1; i++) {
         int currlineLength = lines[i].size() - 1;
         for(int j = 0; j < lines[i].size(); j++) {
             currlineLength += lines[i][j];
         }
         totalCost += (lineWidth - currlineLength) * (lineWidth - currlineLength) * (lineWidth - currlineLength);
     }
-    cost = ((float) totalCost) / ((float) lines.size());
+    cost = totalCost;
+
 }
