@@ -14,6 +14,9 @@ gdb: $(TARGET)
 $(TARGET): main.o Problem.o Solution.o 
 	$(CC) $(CFLAGS) -o $@ problem.o solution.o  main.o
 
+maker:
+	g++ -o maker textToInput.cpp 
+
 Solution.o: solution.cpp solution.h
 	$(CC) $(CFLAGS) -c *.cpp
 
