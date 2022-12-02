@@ -40,6 +40,7 @@ Solution dp(Problem problem) {
 
   int printList[words.size()+1];
 
+  //Fill auxilary table for the extra spaces on each line for a given configuration. Given words from words[i] to words[j] are placed on a single line, calculate extra space.
   for (int i = 1; i <= words.size(); i ++) {
     extraSpace[i][i] = problem.lineWidth - words[i-1];
     for (int j = i+1; j <= words.size(); j++) {
@@ -55,11 +56,11 @@ Solution dp(Problem problem) {
         lineCost[i][j] = 0;
       } else {
         lineCost[i][j] = extraSpace[i][j]*extraSpace[i][j]*extraSpace[i][j];
-        //lineCost[i][j] = extraSpace[i][j]*extraSpace[i][j];
       }
     }
   }
 
+  //Recurence Equation
   costTillNow[0] = 0;
   for (int j = 1; j <= words.size(); j++) {
     costTillNow[j] = INT32_MAX;
