@@ -29,7 +29,7 @@ Solution greedy(Problem problem) {
     if(currLine.size() > 0) {
         solution.lines.push_back(currLine);
     }
-;
+
     auto end = chrono::high_resolution_clock::now();
     auto timePased = chrono::duration_cast<chrono::nanoseconds>(end - start);
     solution.time = timePased.count();
