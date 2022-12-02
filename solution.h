@@ -9,7 +9,7 @@ class Solution{
     public:
         int lineWidth;
         vector< vector<int> > lines;
-        int cost;
+        float cost;
         int time;
         Solution(int gLineWidth, vector<int> gWords, int gCost);
         Solution();
