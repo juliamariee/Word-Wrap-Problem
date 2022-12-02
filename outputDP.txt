@@ -1,0 +1,49 @@
+aaaaa 
+bbbbb ccccc 
+ddd eeeee 
+fffffffffff 
+gggggggggg 
+hhhhh iiii 
+jjjjjjjj 
+kkkkkkkkk 
+lllllllll 
+mmmmm nn 
+oooo pppppp 
+qqq rrrrrrrr 
+sss ttttt 
+uuuuu vvvvvv 
+wwwwwwwww 
+xxxx 
+yyyyyyyyy 
+zzzz aaaaaaa 
+bbbbb 
+cccccccc 
+dddd eeeeeeee 
+fff ggggg 
+hhh iiiiiii 
+jjjjjj 
+kkkkkkk 
+lllllll 
+mmmm nnnnn 
+oooooo ppp qq 
+rrrrr ssssss 
+tttttt uu 
+vvvv wwwwwwww 
+xxxxxxxxxxx 
+yyyyyyy 
+zzzzzzz aaaaa 
+bb cccccccc 
+ddddd eeeee 
+ffff ggggg 
+hh iiiii 
+jjjjjjjj 
+kkkkkkkk 
+llllllllll 
+mmmmmmmm 
+nnnnn ooooooo 
+ppppppppppp 
+qqqqqqq rrrrr 
+sssssssss 
+tttttttttttt 
+COST: 4399
+TIME ELAPSED: 0.001462 Seconds

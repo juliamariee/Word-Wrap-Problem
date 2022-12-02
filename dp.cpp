@@ -54,8 +54,8 @@ Solution dp(Problem problem) {
       } else if (j == words.size() && extraSpace[i][j] >= 0) {
         lineCost[i][j] = 0;
       } else {
-        //lineCost[i][j] = extraSpace[i][j]*extraSpace[i][j]*extraSpace[i][j];
-        lineCost[i][j] = extraSpace[i][j]*extraSpace[i][j];
+        lineCost[i][j] = extraSpace[i][j]*extraSpace[i][j]*extraSpace[i][j];
+        //lineCost[i][j] = extraSpace[i][j]*extraSpace[i][j];
       }
     }
   }

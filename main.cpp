@@ -52,5 +52,6 @@ int main (int argc, char *argv[]) {
     }
     solution.show(outFile);    
 
+    outFile.close();
     return 0;
 }

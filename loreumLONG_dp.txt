@@ -1,0 +1,158 @@
+aaaaa bbbbb 
+ccccc ddd eeeee 
+fffffffffff 
+gggggggggg hhhhh 
+iiii jjjjjjjj 
+kkkkkkkkk lllllllll 
+mmmmm nn oooo 
+pppppp qqq rrrrrrrr 
+sss ttttt uuuuu 
+vvvvvv wwwwwwwww 
+xxxx yyyyyyyyy 
+zzzz aaaaaaa bbbbb 
+cccccccc dddd 
+eeeeeeee fff ggggg 
+hhh iiiiiii jjjjjj 
+kkkkkkk lllllll mmmm 
+nnnnn oooooo ppp qq 
+rrrrr ssssss tttttt 
+uu vvvv wwwwwwww 
+xxxxxxxxxxx yyyyyyy 
+zzzzzzz aaaaa bb 
+cccccccc ddddd eeeee 
+ffff ggggg hh iiiii 
+jjjjjjjj kkkkkkkk 
+llllllllll mmmmmmmm 
+nnnnn ooooooo 
+ppppppppppp qqqqqqq 
+rrrrr sssssssss 
+tttttttttttt uuuuuu 
+vvvvvv wwww xxxxx 
+yyy zzzzzzz aaaa 
+bbbbbbbbb ccc 
+ddddddd eeee fffff 
+gggggggg hhhhhhhhh 
+iiii jjj kkkkkkkk 
+lllllll mmmmmmmmmmmm 
+nnnnnn oooooo 
+ppppppp qq rrrr 
+ssssssssss tttttttt 
+uuuuuuuuu vvvvv 
+wwwwwwww xxxxxxxxxxx 
+yyyyyy zzz aaaaaaaa 
+bbbbbbbbb ccccccc 
+ddddd eeeeee ffffff 
+ggg hhhhhhh iiiiii 
+jjjj kkkkkkkkk 
+lllll mmmm nnnnnnnn 
+ooooooo pppppp 
+qqqq rrrrrrrrr 
+sssss ttt uuuuuuuu 
+vvvvvv wwwww xx 
+yyyyyy zzzzzzzzzzz 
+aaaaaaaaa bbbbbbbbb 
+cccccccc ddddddddd 
+eeeee ffff ggg 
+hhhhh iiiiiiii jj 
+kkkk ll mmmmmmmm 
+nnnnn ooooooooo 
+ppppppp qqqqqqqqqqqq 
+rrrrrrrr ssss 
+tttt uuuuuuuuuuuu 
+vvvv wwwwwwww xxx 
+yyyyy zzzz aaaaaa 
+bbbbbbbbb cc dddddd 
+eeeee fffffffff 
+gggggggg hhhhh 
+iiii jjjjj kkkkkk 
+lllllll mmmmmmmmm 
+nnnnnnnnn ooooo 
+ppppp qqq rrrrrr 
+ssssss tttttt uuu 
+vvvvvv w xxxxxxxxx 
+yyyyyyyy zzzzz 
+aaaaaa bbbbbbbb 
+ccc dddddddd 
+eee ffffffff gg 
+hhhhh iiiiiiiii 
+jjjjjjjjjjj 
+kkkkkkkkkkkk llllll 
+mmmmm nnnnnn oooo 
+ppppppp qq rrrr 
+ssssss ttttttt 
+uuuuuuuuu vv wwwwww 
+xxx yyyyyyyyyy 
+zzzzzzz aaaaaaaa 
+bbbbbbbbb cccc ddddd 
+eee ffffff gggggg 
+hhhhhh iiiiiii jjjjj 
+kkk lllllllll mmmmm 
+nnnn ooooooooooo 
+pppppppppppp qqqq 
+rrrr ssssssss 
+tttttt uuu vvvvvvv 
+wwwww xxxxx yyy 
+zzzzz aaaaaaa bbbb 
+ccccccccc ddddd ee 
+fff gg hhhhh iiiiiii 
+jjjjjjjjjjj kkkk lll 
+mmmmmmmmm nnnnnnn 
+oooo p qqqqq rrrrrr 
+sssssssss ttttt 
+uuuuuuuuu vvvvvv 
+wwwwwww xxxxxxxx 
+yyyyyyy zzzzzzzz 
+aaaaaaa bbbbbb ccccc 
+dddddd ee fffff 
+ggg hhhhhh iiiiiiii 
+jjjjj kkkkk ll 
+mmmm nnn oooo ppppp 
+qqqqqq rrrrrrrrr 
+sssss tttttttt 
+uuuuu vv wwwwwwwww 
+xxxxxxxxx yyyy zzz 
+aaaaaaaaa bbbbbb cc 
+dddddddd eeeee fffff 
+ggggg hhhhh iii 
+jjjjjjjjj kkkkkkkk 
+llllllllllll mmm 
+nnnnnnnnnn oooooo 
+pppppppp qq rrrrrrrr 
+ssss ttttttttttt 
+uuuuu vvvvvvv 
+wwwwwww xx yyyyy 
+zzzzz aaaaaaaa bb 
+ccccccccc dddddd 
+eeeeeeeee fffffffff 
+ggggggg hhhh 
+iii jjjjjjj kkkk 
+llllllllll mmmmm 
+nnnn oooooooooooo 
+pppppppppp qqqq rrrr 
+ssssssss tttt uu 
+vvvvvvvv wwww xxxxxx 
+yy zzzzz aaaaaa 
+bbbbbbb cccc ddddddd 
+ee fffffffffff ggggg 
+hhhhhhh iiiiiiii 
+jjjjjjjjjjj kk 
+lllllll mmmm nn 
+ooooooo pppppp 
+qqqqq rr sssss 
+ttt uuuuuu vvvvvv 
+wwwwwwwwwwww xxxx 
+yy zzzzz aa bbbb 
+ccccccc dddddddddd 
+eeeee fffffffffff 
+ggggggggg hhhhhhh 
+iiii jjjjjjjjj 
+kkkkkkk llll 
+mm nnnnnnn 
+oooo ppppppppp 
+qqqqqqqqqqq 
+rrrrrrrrr sssss 
+ttt uuuu vvvvvvvvvv 
+wwwwwww xxxxx yyy 
+zzzzz aaaaaa bbbbbb 
+COST: 16685
+TIME ELAPSED: 0.026456 Seconds
