@@ -16,10 +16,18 @@ Solution greedy(Problem problem) {
     vector<int> currLine;
     int currWidth = 0;
     for(int i = 0; i < words.size(); i++) {
-        if((currWidth + words[i]) < lineWidth) {
+        if((currWidth + words[i]) == lineWidth) {
+            // word fits perfectly
             currLine.push_back(words[i]);
-            currWidth += words[i];
+            solution.lines.push_back(currLine);
+            currLine.clear();
+            currWidth = 0;
+        } else if((currWidth + words[i] + 1) < lineWidth) {
+            // word fits
+            currLine.push_back(words[i]);
+            currWidth += words[i] + 1;
         } else {
+            // word doesnt fit
             solution.lines.push_back(currLine);
             currLine.clear();
             currLine.push_back(words[i]);

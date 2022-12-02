@@ -1,0 +1,3 @@
+
+COST: 0
+TIME ELAPSED: 0.000068 Seconds
