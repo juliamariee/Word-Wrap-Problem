@@ -8,23 +8,24 @@
 #include <iostream>
 
 int main (int argc, char *argv[]) { 
+    // if we havent been given 3 inputs, format is incorrect
     if(argc != 4){
         cout << "Format Incorrect!" << endl;
         return -1;
     }
 
-    ifstream inFile; //input file
-    ofstream outFile; //output file
+    ifstream inFile; // input file
+    ofstream outFile; // output file
 
-    inFile.open(argv[1]);
-    outFile.open(argv[2]);
-    int method = stoi(argv[3]);
+    inFile.open(argv[1]); // use the first command line arg as input file
+    outFile.open(argv[2]); // use the second command line arg as output file
+    int method = stoi(argv[3]); // use the third command line arg to select algorithm
     if(!outFile) cout << "output.txt not created"<< endl;
     int lineWidth = -1;
     string line = "";
     vector<int> words;
 
-    //Input Stuff
+    // parse input
     string word_s = "";
     string lineWidth_s = "";
     if(inFile.is_open() && inFile.good()){
@@ -34,11 +35,16 @@ int main (int argc, char *argv[]) {
             words.push_back(stoi(word_s));
         }
     }
+    // close the input file
     inFile.close();
 
+    // create a problem with the input
     Problem problem(lineWidth, words);
 
+    // declare the solution
     Solution solution;
+
+    // switch over the method (3rd command line arg) to run the correct algorithm
     switch(method){
         case 0: //Greedy
             solution = greedy(problem);
@@ -47,11 +53,15 @@ int main (int argc, char *argv[]) {
             solution = dp(problem);
             break;
         default:
+            // error if third command line arg was not a 0 or 1
             cout << "Error" << endl;
             break;
     }
+
+    // output the solution to the output file
     solution.show(outFile);    
 
+    // close the output file
     outFile.close();
     return 0;
 }
