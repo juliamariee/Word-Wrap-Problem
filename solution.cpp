@@ -31,4 +31,5 @@ void Solution::calculateCost() {
         totalCost += (lineWidth - currlineLength) * (lineWidth - currlineLength) * (lineWidth - currlineLength);
     }
     cost = totalCost;
+
 }
