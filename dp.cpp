@@ -9,16 +9,12 @@
 using namespace std;
 
 //Recursive function to populate our lines data structure to be able to print all the words 
-int populateLines(vector< vector<int> > &lines, vector<int> words, int printList[], int numOfWords) {
-  //Line number is useful for debugging
-  int lineNumber;
-  //if the current words is first then it must be the first line;
-  if (printList[numOfWords] == 1) {
-    lineNumber = 1;
-  //Else recursively call until the first line is found using the next chunk of words
-  } else {
-    lineNumber = populateLines(lines, words, printList, printList[numOfWords]-1) + 1;
+void populateLines(vector< vector<int> > &lines, vector<int> words, int printList[], int numOfWords) {
+  //if the current words is not the first then it must be the first line;
+  if (printList[numOfWords] != 1) {
+    populateLines(lines, words, printList, printList[numOfWords]-1);
   }
+  //Else recursively call until the first line is found using the next chunk of words
 
   vector<int> currentLine;
   //Add all words between the current printList[numOfWords]-1 to num or words to to a temporary array to properly fill our vector 
@@ -26,8 +22,6 @@ int populateLines(vector< vector<int> > &lines, vector<int> words, int printList
     currentLine.push_back(words[i]);
   }
   lines.push_back(currentLine);
-
-  return lineNumber;
 }
 
 Solution dp(Problem problem) {
@@ -93,7 +87,8 @@ Solution dp(Problem problem) {
     for (int i = 1; i <= j; i ++) {
       //If the current proposed solution is a valid solution AND is better than the current solution than replace the cost with the new cost
       if (costTillNow[i-1] != INT32_MAX && lineCost[i][j] != INT32_MAX && (costTillNow[i-1] + lineCost[i][j] < costTillNow[j])) {
-        costTillNow[j] = costTillNow[i-1] + lineCost[i][j];
+        costTillNow[j] = costTillNow[i-1];
+        costTillNow[j] += lineCost[i][j];
         //Add i to print list printing later
         printList[j] = i;
       }

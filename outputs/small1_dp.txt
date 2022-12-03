@@ -1,0 +1,5 @@
+aaa 
+bb cc 
+ddddd 
+COST: 28.000000
+TIME ELAPSED: 0.000082 Seconds
