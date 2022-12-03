@@ -1,0 +1,100 @@
+aaaaaaaaaa 
+bbbbbbbbbbbbbbb ccccccc 
+ddd eeeeee ffffffff 
+gggg hhhhhhhhhhhhhhhh 
+iiiiiiii jj 
+kkkkkkkkkkkkkkkkkk 
+llllllllllllllll 
+mmmmmmmmmmmmmmmmmmmmmmm 
+nnnnnnnnnnnnnnnnnnnnn 
+oooooooooooooo pppppppp 
+qqqqqqqqqqqqqqqqqqqqq 
+rrrrrrrrrrrrrrrr ssss 
+ttttttttt 
+uuuuuuuuuuuuuuuuuuuuuuuu 
+vvvvvvvvvvvvvvvvvv 
+wwwwwwwwww 
+xxxxxxxxxxxxxxx yy 
+zzzzzzzzzzzzz 
+aaaaaaaaaaaaaaaaa 
+bbbbbbbbbbbbbbbb 
+ccccccccc ddddddd eeee 
+ffffffffff 
+gggggggggggggggggggggg hh 
+iiiiiiiiiiii 
+jjjjjjjjjjjjjjjjjjj 
+kkkkkkkkkk 
+lllllllllllllll mm 
+nnnnnnnnn ooooooooo 
+ppppppppppppppppppp q 
+rrrrrrr ssssssss 
+tttttttttttttt uuuuuuu 
+vvvv wwwww xxxxxxxxxx 
+yyyy 
+zzzzzzzzzzzzzzzzzzzzz aaa 
+bbbbbbbbbbbbb ccc dddd 
+ee fffffffffffffffffff 
+ggggggggggg hh ii 
+jjjjjjjjjjjjjj kkk 
+lllllllllllllll 
+mmmmmmmmmmmmmmm 
+nnnnnnnnnnnnnn 
+ooooooooo 
+pppppppppppppppp 
+qqqqqqqqqqqqqqqqqqqq 
+rrrrrrrrrrr s tttt 
+uuuuuuuuuuuuuuuuuuuuu 
+vvvvvvvvvvvvvvvvv www 
+xxxx yyyyyy z 
+aaaaaaaaaaaaaaaaaaaaaaaa 
+bbb cccccccccc ddd 
+eeeeeeeeeeeeeee ffff 
+gggggggg 
+hhhhhhhhhhhhhhhhh iiiiiii 
+j kkk lllllllll 
+mmmmmmmmmmmmmmmmmm nnnn 
+oooooooooooooooooooooo 
+pppppppppppppppppppp 
+qqqqqqqqqqqqqqqqqq rrrr 
+sssssssss 
+ttttttttttttttttttt 
+uuuuuuuuuuuu 
+vvvvvvvvvvvvvvvvvvvv 
+wwwwwwwwwwwwwwwwwwwww 
+xxxxxxxxxxxx 
+yyyyyyyyyyyyyyyy 
+zzzzzzzzzzzzzzzzz aaaa 
+bbbbbbbbbb 
+ccccccccccccc d 
+eeeeeeeeee ffffffffffff 
+ggggggggggggggggggg 
+hhhhhhhhhhhhhhhhhhh 
+iiiiii j 
+kkkkkkkkkkkkkkkkkkkkkk 
+lllll mmmmmmmmmmmmmmmmm 
+nnnnnnnnnnnnnnnnnnnn 
+ooooo 
+pppppppppppppppppppp qqqq 
+rrrrrrrrrrrrrrrrrrrrrr 
+sssssssssssssss 
+ttttttttttttttttt 
+uuuuuuuuu v 
+wwwwwwwwwwww xxxxxxxxx 
+yyyyyyyyyyy 
+zzzzzzzzzzzzzzzzzzzzzzz 
+aaaaa bbbbbbb cc 
+dddddddddddddddddddd 
+eeeeeeeeeeeeeeeeeeeeeee 
+fffffffffffffffffffff 
+ggggg hhhhhhhhhhh 
+iiiiiiiiiiiiiiiiiiiiii 
+jjjjjjjjjjjjjj 
+kkkkkkkkkkkkkk llllllll 
+mmmmmmmmmmmmmmmmmmmmmmmm 
+nnnnnnnnnnnn ooooooooo 
+ppppppppppppp 
+qqqqqqqqqqqqqqqq 
+rrrrrrrrrrrrrrrrr 
+ssssssss 
+COST: 76618.000000
+TIME ELAPSED: 0.000579 Seconds

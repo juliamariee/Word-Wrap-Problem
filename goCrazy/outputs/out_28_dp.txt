@@ -1,0 +1,53 @@
+aaaaaaaaaaaaaaa 
+bbbbbbbbbb 
+ccccccccccccc ddddddddd 
+eeeeeeeeeeeeeeeeeeeee 
+ffffffffffffffffffff ggg 
+hhhhhhhhhhhhhhhhhhhhh 
+iiiii jjjjjjjjjjjjjjj 
+kkk llllllllll 
+mmmmmmmmmmmmmmmmmmmm 
+nnnnnnnnnnnnnnnnnnnn 
+oooooooooooooooooooooooo 
+ppp qqqqqqqqqqqqq rrrr 
+sssssssssssssssssssss 
+tttttttttttttttttt 
+uuuuuuuuuuuuuuuuuuuuuuuu 
+vvvvvvvvvvvvvvvvvvv 
+wwwwwwww 
+xxxxxxxxxxxxxxxxxxxxxxxx 
+yyyyyyyyyyyyyyyyyyyyyyyy 
+zzzzzzzzzzzzzzz 
+aaaaaaaaaaaaaaaaaaaa 
+bbbbbbbbbbbbbbbbbbbbb 
+cccccccccccccccc 
+dddddddddddddddd e 
+ffffff gg hhhhhhhhhhhhh 
+iiiiii jjjjjjjjjjjjjj 
+kkkkkkkkkkkkkkkkkkkkkkkk 
+llllllll 
+mmmmmmmmmm nnnnn 
+ooooooooooooooooooooooo 
+pppppppppppp 
+qqqqqq rrrrrrrrrr 
+ssssssssssssssssssssssss 
+ttttt uuuuuuuuuuuuu 
+vvvvvvvvvvvv 
+wwwwwwwwwwwwwwwwwwwwwwww 
+x yyyyyyyyyyyyyyyyyyyyyy 
+zzzzzzzzzzzzzzzzzzzzzzz 
+aaaaaaaaaaaaaaaaaaa 
+bbbbbbbbbbbbbbbbbbbbb 
+cccccccccccccccccccccc 
+dddddddddd eee 
+fffffffff gggggg 
+hhhhhhhhhhhhhhhhhhh i 
+jjjjjjjjjjjjjjjjjjjjjj 
+kkkkkkkkkkkkkkkk 
+llllllllllllllllll 
+mmmmmmmmmm 
+nnnnnnnnnnnnnnnnnnnnnn 
+ooooooo pppppppppp 
+qqqqqqqqqqqqqqqqqqqqq 
+COST: 24668.000000
+TIME ELAPSED: 0.001445 Seconds
