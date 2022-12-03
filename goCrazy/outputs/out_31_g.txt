@@ -1,0 +1,68 @@
+aaaaaaaaaaaaaaaaaaa 
+bbbbbbbbbbbbbbbbbb cccc 
+dddddddddd 
+eeeeeeeeeeeeeeeeeeeee 
+ffffffffffffffff gggggg 
+hhhhhhhhhhhhhhh 
+iiiiiiiiiiiiiiiiiiii 
+jjjjjjjjjjjjjjjj 
+kkkkkkkkkkkk lllllll 
+mmmmmmmmmmmmmm 
+nnnnnnnnnnnnnnnnn 
+oooooooooo 
+ppppppppppppppp 
+qqqqqqqqqqqqqqqqqqqqqq 
+rrrrrrrrrrr 
+sssssssssssssss 
+ttttttttttttttttttttttt 
+uuuuuu vvvvvvvvvvvvvvv 
+wwwwwwwwwwwwwwwwwwwwww 
+xxxxxxxxxxxxxxx 
+yyyyyyyyyyyyyyyyyyyyyyy 
+zz aaaaaaa 
+bbbbbbbbbbbbbbbbbbbbbb 
+cccccccccccccccccccccccc 
+ddddddddddddddddddd 
+eeeeeeeeeeeeeee 
+ffffffffff gggggggggggg 
+hhhhhhhhhhhhhhhhhh 
+iiiiiiiiiiiiiiiiiii 
+jjjjjjjjjjjjjjjjjjjjjjjj 
+kkkkkkkkk 
+llllllllllllllll 
+mmmmmmmmmmmmmmm 
+nnnnnnnnnnnnnnnnnnnnn 
+ooooooo 
+pppppppppppppppppp qqq 
+rrrrrrrrrrrr ss tttt uu 
+vvvvvvvvvvvvvvvvvvvvvvvv 
+wwwwwwwwwwwwww 
+xxxxxxxxx 
+yyyyyyyyyyyyyyyyyyyyyy 
+zzzzzzzzzzzzzzzzzzzz 
+aaaaaaaaaaaaaaa 
+bbbbbbbbbbbbbbbbbbb cc 
+ddddddddddddd 
+eeeeeeeeeeee 
+ffffffffffffffffffffffff 
+ggggggggggg hhh 
+iiiiiiiiiiiiiiiiiii j 
+kkkkkkkkkkkk 
+llllllllllllllllllllll 
+mmmmmmmmmm 
+nnnnnnnnnnnnnnnnnnnnnn 
+oooooooooooooo pppppppppp 
+qqqqqqqqqqqqq 
+rrrrrrrrrrrrrrrrrrrr 
+ssssss ttttttttttt 
+uuuuuuuuuuuuu 
+vvvvvvvvvvvvvvvvvvvvvvvv 
+wwwwwwwwwwwwwwwwwwwwww 
+xxxxxxxxxxxxxxx yyyy 
+zzzzzzzzzzzzzzzzzzzzzzzz 
+aaaaaaaaaaaaaa 
+bbbbbbbbb cccccccc ddd 
+eeeeeeeeeeeeeeeeeeee 
+ffffffffffffffffffffff 
+COST: 43849.000000
+TIME ELAPSED: 0.000468 Seconds

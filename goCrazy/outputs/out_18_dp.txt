@@ -1,0 +1,22 @@
+aaaaaaaaaaaaaaa 
+bbbbbbbbbbbbbbbbbbbbb 
+cccccccccccc 
+ddddddddddddddddddd 
+eeeeee 
+fffffffffffffffffffffff 
+gggggggggggggggggggg 
+hhhhhhhhhhhhhhhhhhhhh 
+iiiiiiiiiiiiiiiiiiiii 
+jjjjjjjjjj 
+kkkkkkkkkkkkkkk lll 
+mmmmm nn oooooooooo 
+pppppppppppppppppppppp 
+qqqqqqqqqqqqqqqqqqqqq 
+rrrrrrrrrrrrrrrr 
+sssssssss 
+tttttttttttttttttt 
+uuuuuuuuuuuuuuuuuuuuuuu 
+vvvvvvvvvv ww 
+xxxxxxxxxxxxxxxxxx 
+COST: 17024.000000
+TIME ELAPSED: 0.000414 Seconds
